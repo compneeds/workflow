@@ -25,7 +25,7 @@ jobs:
 
       - name: Build EXE with PyInstaller
         run: |
-          pyinstaller --onefile --noconsole myscript.py
+          pyinstaller --onefile --noconsole psexec_updated_v10.py
 
       - name: Upload EXE artifact
         uses: actions/upload-artifact@v3
