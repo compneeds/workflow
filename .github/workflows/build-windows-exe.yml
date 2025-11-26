@@ -28,7 +28,7 @@ jobs:
           pyinstaller --onefile --noconsole psexec_updated_v10.py
 
       - name: Upload EXE artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: windows-exe
           path: dist/myscript.exe
